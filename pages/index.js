@@ -31,6 +31,10 @@ export default function Home({blogs}) {
               subtitle={blog.subtitle}
               date={blog.date}
               image={blog.coverImage}
+              link={{
+                href: '/blogs/[slug]',
+                as: `/blogs/${blog.slug}`
+              }}
             />
           </Col>
           )
@@ -44,12 +48,10 @@ export default function Home({blogs}) {
 // Provides props to your page
 // It will create static page
 export async function getStaticProps() {
-  const randomNumber = Math.random();
   const blogs = await getAllBlogs();
   return {
     props: {
-      blogs,
-      randomNumber
+      blogs
     }
   }
 }
