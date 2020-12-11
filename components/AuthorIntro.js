@@ -10,7 +10,7 @@ const AuthorIntro = () =>
           width={64}
           height={64}
           className="mr-3"
-          src="https://avatars1.githubusercontent.com/u/9482724?s=460&u=69a6acab13fd5547a4e316e496b573271077147f&v=4"
+          src="https://scontent.fnyc1-1.fna.fbcdn.net/v/t1.0-9/p960x960/122230870_1525341504320442_1192175532603677531_o.jpg?_nc_cat=103&ccb=2&_nc_sid=85a577&_nc_ohc=xpys-tHrXZsAX8ccdt4&_nc_ht=scontent.fnyc1-1.fna&tp=6&oh=fde97c3aebcd46bf7a1d1f3bf7cbc27b&oe=5FE0933A"
           alt="Generic placeholder"
         />
         <Media.Body>
