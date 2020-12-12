@@ -1,4 +1,5 @@
 import { Card } from 'react-bootstrap';
+import { urlFor } from 'lib/api';
 
 const CardListItem = () => {
   return (
